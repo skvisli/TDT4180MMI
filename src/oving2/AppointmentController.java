@@ -35,7 +35,7 @@ public class AppointmentController implements Initializable{
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
-		//Adds listener to repeat-checkBox
+		//Addss listener to repeat-checkBox
 		repeat.selectedProperty().addListener(new ChangeListener<Boolean>() {
 			@Override
 			public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
