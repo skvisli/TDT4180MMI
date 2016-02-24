@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane prefHeight="650.0" prefWidth="400.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="100.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="200.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd8902" height="100.0" layoutX="300.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="100.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="200.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd8902" height="100.0" layoutX="300.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="100.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="200.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd8902" height="100.0" layoutX="300.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="200.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd8902" height="100.0" layoutX="300.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="100.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3b6b9" height="100.0" layoutX="200.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd8902" height="100.0" layoutX="300.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                <Text layoutX="240.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="240.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="240.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="140.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="40.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="340.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="140.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="40.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="340.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="÷">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="40.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" textAlignment="CENTER">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="125.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+/-">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="240.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="340.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="40.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="340.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="40.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="240.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="340.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Text layoutX="140.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Text>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000b14" height="152.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+                <Text fill="#fcfcfc" layoutX="205.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1,478">
+                    <font>
+                        <Font size="80.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+.root{
+    -fx-background: #EDF7FA;
+    /*
+     * -fx-focus-color: #B6A678;
+     * -fx-base: #DFB951;*/
+}
+.notValid{
+	-fx-border-color: red;
+}
+.isValid{
+	-fx-border-color: transparent;
+}
+.redText{
+	-fx-text-fill: red;
+}
+.greenText{
+	-fx-text-fill: green;
+}

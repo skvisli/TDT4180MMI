@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+
+<VBox prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oving2.AppointmentController">
+    <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" text="Appointment" textOverrun="CLIP">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+        <HBox>
+            <children>
+                <Label text="Event Title:">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <TextField fx:id="eventTitle" styleClass="isValid">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></TextField>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox>
+            <children>
+                <Label text="Location:">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <TextField fx:id="locationTextField">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="14.0" right="5.0" top="5.0" />
+                    </HBox.margin></TextField>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox>
+            <children>
+                <Label text="Date:">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <DatePicker fx:id="date" prefWidth="150.0">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></DatePicker>
+                <Label text="From:">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <TextField fx:id="from" prefWidth="50.0" text="08:00">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></TextField>
+                <Label text="To:">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <TextField fx:id="to" prefWidth="50.0" text="12:00">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></TextField>
+                <CheckBox fx:id="allDay" mnemonicParsing="false" onAction="#allDay" text="All Day">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></CheckBox>
+            </children>
+            <VBox.margin>
+                <Insets bottom="30.0" left="10.0" right="10.0" top="30.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox>
+            <children>
+                <CheckBox fx:id="repeat" mnemonicParsing="false" text="Repeat">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></CheckBox>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox fx:id="repeatOptions" disable="true">
+            <children>
+                <Label text="Every">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <TextField fx:id="frequency" prefWidth="50.0">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></TextField>
+                <Label text="day.">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                    </HBox.margin>
+                </Label>
+                <Label text="End Date:">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+                    </HBox.margin></Label>
+                <DatePicker fx:id="endDate" prefWidth="150.0">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></DatePicker>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox alignment="BOTTOM_RIGHT" minHeight="100.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="feedback" textFill="#0da14a">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="50.0" top="5.0" />
+                    </HBox.margin>
+                </Label>
+                <Button fx:id="save" mnemonicParsing="false" onAction="#save" text="Save">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></Button>
+                <Button fx:id="clear" mnemonicParsing="false" onAction="#clear" text="Clear">
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin></Button>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+    </children>
+    <padding>
+        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+    </padding>
+</VBox>
